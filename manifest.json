@@ -1,0 +1,23 @@
+
+{
+  "short_name" : "Auraiya Online",
+  "description" : "www.auraiya.online",
+  "start_url" : "https://host.auraiya.online/",
+  "name" : "Auraiya Online",
+  "scope" : "https://host.auraiya.online/",
+  "display" : "standalone",
+  "orientation" : "portrait",
+  "lang" : "English",
+    "icons": [
+{
+      "src": "https://host.auraiya.online/pwa/icons/192x192.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://host.auraiya.online/pwa/icons/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+  }
