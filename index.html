@@ -24,7 +24,7 @@ if ("serviceWorker" in navigator) {
     // Register the service worker
     navigator.serviceWorker
       .register("https://sachinaoh.github.io/Auraiya-Online/pwabuilder-sw.js", {
-        scope: "https://host.auraiya.online/"
+        scope: "./"
       })
       .then(function (reg) {
         console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
