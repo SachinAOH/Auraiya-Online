@@ -2,9 +2,9 @@
 {
   "short_name" : "Auraiya Online",
   "description" : "www.auraiya.online",
-  "start_url" : "https://host.auraiya.online/",
+  "start_url" : "https://sachinaoh.github.io/Auraiya-Online/index",
   "name" : "Auraiya Online",
-  "scope" : "https://host.auraiya.online/",
+  "scope" : "/",
   "display" : "standalone",
   "orientation" : "portrait",
   "lang" : "English",
