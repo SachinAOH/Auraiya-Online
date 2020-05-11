@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>
+Auraiya Online
+</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel='manifest' href='https://www.drivehq.com/file/DFPublishFile.aspx/FileID7143635327/Key9i4l7pvjyf3j/manifest.json' />
+  <link rel="apple-touch-icon" href="https://host.auraiya.online/pwa/icons/152x152.jpg" />
+  <meta name="msapplication-TileImage" content="https://host.auraiya.online/pwa/icons/144x144.jpg" />
+</head>
+
+<body>
+
+<a href="https://www.auraiya.online">Auraiya News</a>
+
+<script>
+
+// Check compatibility for the browser we're running this in
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[PWA Builder] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("pwabuilder-sw.js", {
+        scope: "https://host.auraiya.online/"
+      })
+      .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+</script>
+
+</body>
+</html>
